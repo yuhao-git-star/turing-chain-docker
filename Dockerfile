@@ -17,27 +17,17 @@ RUN  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-ke
      # (https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md#chrome-headless-doesnt-launch-on-unix)
      # but that seems too easy to get out of date.
      && apt-get update \
-     && apt-get install -y google-chrome-stable libxss1 python3 python3-dev fonts-cantarell ttf-freefont git fonts-wqy-zenhei
+     && apt-get install -y google-chrome-stable libxss1 python3 python3-dev fonts-cantarell ttf-freefont git fonts-wqy-zenhei fonts-noto-cjk
 
-RUN  _wgeturl="https://github.com/google/fonts/archive/master.tar.gz" \
-     && _gf="google-fonts" \
-     # install wget
-     && apt-get install wget \
-     # make sure a file with the same name doesn't already exist
-     && rm -f $_gf.tar.gz \
-     && echo "Connecting to Github server..." \
-     && wget $_wgeturl -O $_gf.tar.gz \
-     && echo "Extracting the downloaded archive..." \
-     tar -xf $_gf.tar.gz \
-     && echo "Creating the /usr/share/fonts/truetype/$_gf folder" \
-     && mkdir -p /usr/share/fonts/truetype/$_gf \
-     && echo "Installing all .ttf fonts in /usr/share/fonts/truetype/$_gf" \
-     find $PWD/fonts-master/ -name "*.ttf" -exec install -m644 {} /usr/share/fonts/truetype/google-fonts/ \; || return 1 \
-     && echo "Updating the font cache" \
-     && fc-cache -f > /dev/null \
-     # clean up, but only the .tar.gz, the user may need the folder
-     && rm -f $_gf.tar.gz \
-     echo "Done."
+COPY ./fonts-master ./fonts-master
+
+RUN cd fonts-master \
+    && mkdir -p /usr/share/fonts/opentype/noto \
+    && cp *otf /usr/share/fonts/opentype/noto \
+    && mkdir -p /usr/share/fonts/truetype/google-fonts \
+    && cp *ttf /usr/share/fonts/truetype/google-fonts \
+    && find $PWD -name "*.ttf" -exec install -m644 {} /usr/share/fonts/truetype/google-fonts/ \; || return 1 \
+    && fc-cache -f -v
 
 RUN  rm -rf /var/lib/apt/lists/* \
      && wget --quiet https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh -O /usr/sbin/wait-for-it.sh \
