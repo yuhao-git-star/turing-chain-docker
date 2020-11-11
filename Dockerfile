@@ -42,16 +42,3 @@ RUN  _wgeturl="https://github.com/google/fonts/archive/master.tar.gz" \
 RUN  rm -rf /var/lib/apt/lists/* \
      && wget --quiet https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh -O /usr/sbin/wait-for-it.sh \
      && chmod +x /usr/sbin/wait-for-it.sh
-
-RUN mkdir -p /api
-WORKDIR /api
-
-COPY package.json .
-COPY yarn.lock .
-RUN yarn install
-
-COPY . .
-RUN yarn build
-
-ENTRYPOINT [ "yarn" ]
-CMD ["start:prod"]
