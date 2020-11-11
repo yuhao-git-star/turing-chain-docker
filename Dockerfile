@@ -3,11 +3,11 @@ ARG NODE_VERSION=12
 FROM node:${NODE_VERSION}-slim AS builder
 
 RUN  apt-get update \
-     && apt-get install -y wget gnupg ca-certificates locales \
-     && sed -ie 's/# zh_TW.UTF-8 UTF-8/zh_TW.UTF-8 UTF-8/g' /etc/locale.gen \
-     && locale-gen
+     && apt-get install -y wget gnupg ca-certificates locales
 
-ENV LANG zh_TW.UTF-8
+RUN  sed -ie 's/# zh_TW.UTF-8 UTF-8/zh_TW.UTF-8 UTF-8/g' /etc/locale.gen
+RUN  locale-gen
+ENV  LANG zh_TW.UTF-8
 
 RUN  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
      && sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'\
@@ -17,7 +17,7 @@ RUN  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-ke
      # (https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md#chrome-headless-doesnt-launch-on-unix)
      # but that seems too easy to get out of date.
      && apt-get update \
-     && apt-get install -y google-chrome-stable libxss1 python3 python3-dev fonts-cantarell ttf-freefont git
+     && apt-get install -y google-chrome-stable libxss1 python3 python3-dev fonts-cantarell ttf-freefont git fonts-wqy-zenhei
 
 RUN  _wgeturl="https://github.com/google/fonts/archive/master.tar.gz" \
      && _gf="google-fonts" \
