@@ -5,6 +5,12 @@ FROM node:${NODE_VERSION}-slim AS builder
 RUN  apt-get update \
      && apt-get install -y wget gnupg ca-certificates locales
 
+RUN apt-get update \
+&& apt-get -y install cabextract xfonts-utils \
+&& wget http://ftp.de.debian.org/debian/pool/contrib/m/msttcorefonts/ttf-mscorefonts-installer_3.6_all.deb \
+&& dpkg -i ttf-mscorefonts-installer_3.6_all.deb \
+&& apt-get install -f -y
+
 RUN  sed -ie 's/# zh_TW.UTF-8 UTF-8/zh_TW.UTF-8 UTF-8/g' /etc/locale.gen
 RUN  locale-gen
 ENV  LANG zh_TW.UTF-8
@@ -17,7 +23,7 @@ RUN  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-ke
      # (https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md#chrome-headless-doesnt-launch-on-unix)
      # but that seems too easy to get out of date.
      && apt-get update \
-     && apt-get install -y google-chrome-stable libxss1 python3 python3-dev fonts-cantarell ttf-freefont git fonts-wqy-zenhei fonts-noto-cjk
+     && apt-get install -y google-chrome-stable libxss1 python3 python3-dev fonts-cantarell ttf-freefont git fonts-wqy-zenhei fonts-noto-cjk fontconfig
 
 COPY ./fonts-master ./fonts-master
 
@@ -27,6 +33,8 @@ RUN cd fonts-master \
     && mkdir -p /usr/share/fonts/truetype/google-fonts \
     && cp *ttf /usr/share/fonts/truetype/google-fonts \
     && find $PWD -name "*.ttf" -exec install -m644 {} /usr/share/fonts/truetype/google-fonts/ \; || return 1 \
+    && mkfontscale \
+    && mkfontdir \
     && fc-cache -f -v
 
 RUN  rm -rf /var/lib/apt/lists/* \
