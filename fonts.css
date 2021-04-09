@@ -1,0 +1,259 @@
+@font-face {
+  font-family: 'AbrilFatface Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/AbrilFatface-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AmaticSC Bold';
+  src: url('https://storage.googleapis.com/tc-fonts/AmaticSC-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AmaticSC Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/AmaticSC-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Anton Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/Anton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cinzel Bold';
+  src: url('https://storage.googleapis.com/tc-fonts/Cinzel-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cinzel Medium';
+  src: url('https://storage.googleapis.com/tc-fonts/Cinzel-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DancingScript Medium';
+  src: url('https://storage.googleapis.com/tc-fonts/DancingScript-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenJyuuGothicX Monospace Bold';
+  src: url('https://storage.googleapis.com/tc-fonts/GenJyuuGothicX-Monospace-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenJyuuGothicX Monospace Light';
+  src: url('https://storage.googleapis.com/tc-fonts/GenJyuuGothicX-Monospace-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenJyuuGothicX Monospace Medium';
+  src: url('https://storage.googleapis.com/tc-fonts/GenJyuuGothicX-Monospace-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenRyuMin TW B';
+  src: url('https://storage.googleapis.com/tc-fonts/GenRyuMin-B.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenRyuMin TW L';
+  src: url('https://storage.googleapis.com/tc-fonts/GenRyuMin-L.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenRyuMin TW M';
+  src: url('https://storage.googleapis.com/tc-fonts/GenRyuMin-M.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenSenRounded TW B';
+  src: url('https://storage.googleapis.com/tc-fonts/GenSenRounded-B.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenSenRounded TW L';
+  src: url('https://storage.googleapis.com/tc-fonts/GenSenRounded-L.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenSenRounded TW M';
+  src: url('https://storage.googleapis.com/tc-fonts/GenSenRounded-M.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenWanMin TW L';
+  src: url('https://storage.googleapis.com/tc-fonts/GenWanMin-L.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenWanMin TW M';
+  src: url('https://storage.googleapis.com/tc-fonts/GenWanMin-M.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenWanMin TW SB';
+  src: url('https://storage.googleapis.com/tc-fonts/GenWanMin-SB.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenYoMin TW B';
+  src: url('https://storage.googleapis.com/tc-fonts/GenYoMin-B.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenYoMin TW L';
+  src: url('https://storage.googleapis.com/tc-fonts/GenYoMin-L.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GenYoMin TW M';
+  src: url('https://storage.googleapis.com/tc-fonts/GenYoMin-M.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GreatVibes Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HomemadeApple Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/HomemadeApple-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSans Bold';
+  src: url('https://storage.googleapis.com/tc-fonts/JosefinSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSans Light';
+  src: url('https://storage.googleapis.com/tc-fonts/JosefinSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSans Medium';
+  src: url('https://storage.googleapis.com/tc-fonts/JosefinSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LobsterTwo Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/LobsterTwo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PoiretOne Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/PoiretOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand Bold';
+  src: url('https://storage.googleapis.com/tc-fonts/Quicksand-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand Light';
+  src: url('https://storage.googleapis.com/tc-fonts/Quicksand-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand Medium';
+  src: url('https://storage.googleapis.com/tc-fonts/Quicksand-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoMono Bold';
+  src: url('https://storage.googleapis.com/tc-fonts/RobotoMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoMono Medium';
+  src: url('https://storage.googleapis.com/tc-fonts/RobotoMono-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoMono Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/RobotoMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoMono Thin';
+  src: url('https://storage.googleapis.com/tc-fonts/RobotoMono-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RussoOne Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/RussoOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSansPro Bold';
+  src: url('https://storage.googleapis.com/tc-fonts/SourceSansPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSansPro Light';
+  src: url('https://storage.googleapis.com/tc-fonts/SourceSansPro-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSansPro Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Staatliches Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/Staatliches-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: '全字庫正楷體';
+  src: url('https://storage.googleapis.com/tc-fonts/TW-Kai-98_1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: '全字庫正楷體 Ext-B';
+  src: url('https://storage.googleapis.com/tc-fonts/TW-Kai-Ext-B-98_1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: '全字庫正楷體 Plus';
+  src: url('https://storage.googleapis.com/tc-fonts/TW-Kai-Plus-98_1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: '全字庫正宋體';
+  src: url('https://storage.googleapis.com/tc-fonts/TW-Sung-98_1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: '全字庫正宋體 Ext-B';
+  src: url('https://storage.googleapis.com/tc-fonts/TW-Sung-Ext-B-98_1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: '全字庫正宋體 Plus';
+  src: url('https://storage.googleapis.com/tc-fonts/TW-Sung-Plus-98_1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  src: url('https://storage.googleapis.com/tc-fonts/Ubuntu-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url('https://storage.googleapis.com/tc-fonts/Ubuntu-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url('https://storage.googleapis.com/tc-fonts/Ubuntu-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Yellowtail Regular';
+  src: url('https://storage.googleapis.com/tc-fonts/Yellowtail-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jf-openhuninn-1.1';
+  src: url('https://storage.googleapis.com/tc-fonts/jf-openhuninn-1.1.ttf') format('truetype');
+}
