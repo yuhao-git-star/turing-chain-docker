@@ -34,6 +34,16 @@
 }
 
 @font-face {
+  font-family: 'Didot';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Didot.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: '教育部標楷體';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Edukai.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'GenJyuuGothicX Monospace Bold';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/GenJyuuGothicX-Monospace-Bold.ttf') format('truetype');
 }
