@@ -82,7 +82,7 @@
   font-family: 'GenRyuMin TW M';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/GenRyuMin-M.ttf') format('truetype');
 }
-/*
+
 @font-face {
   font-family: 'GenSenRounded TW B';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/GenSenRounded-B.ttf') format('truetype');
@@ -97,7 +97,7 @@
   font-family: 'GenSenRounded TW M';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/GenSenRounded-M.ttf') format('truetype');
 }
-*/
+
 @font-face {
   font-family: 'GenWanMin TW L';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/GenWanMin-L.ttf') format('truetype');
