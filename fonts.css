@@ -24,8 +24,38 @@
 }
 
 @font-face {
+  font-family: 'AvenirLTStd Black';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/AvenirLTStd-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd Book';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/AvenirLTStd-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd Roman';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/AvenirLTStd-Roman.otf') format('opentype');
+}
+
+@font-face {
   font-family: 'Balthazar Regular';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Balthazar-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Butler Bold';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Butler_Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Butler Medium';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Butler_Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Butler Regular';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Butler_Regular.otf') format('opentype');
 }
 
 @font-face {
@@ -36,6 +66,36 @@
 @font-face {
   font-family: 'Cinzel Medium';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Cinzel-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cormorant Bold';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Cormorant-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cormorant Medium';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Cormorant-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cormorant Regular';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Cormorant-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CrimsonText Bold';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/CrimsonText-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CrimsonText Regular';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/CrimsonText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CrimsonText SemiBold';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/CrimsonText-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
@@ -159,6 +219,11 @@
 }
 
 @font-face {
+  font-family: 'lato';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/lato.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'LobsterTwo Regular';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/LobsterTwo-Regular.ttf') format('truetype');
 }
@@ -226,6 +291,11 @@
 @font-face {
   font-family: 'Staatliches Regular';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Staatliches-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TimesNewRoman';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/TimesNewRoman.ttf') format('truetype');
 }
 
 @font-face {
