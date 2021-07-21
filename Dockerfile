@@ -27,6 +27,10 @@ RUN  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-ke
 
 COPY ./fonts-master ./fonts-master
 
+COPY ./65-nonlatin.conf ./usr/share/fontconfig/conf.avail
+
+RUN rm ./etc/fonts/conf.d/64-wqy-zenhei.conf
+
 RUN cd fonts-master \
     && mkdir -p /usr/share/fonts/opentype/noto \
     && cp *otf /usr/share/fonts/opentype/noto \
