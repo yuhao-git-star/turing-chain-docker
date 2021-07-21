@@ -299,32 +299,32 @@
 }
 
 @font-face {
-  font-family: '全字庫正楷體';
+  font-family: 'TW Kai';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/TW-Kai-98_1.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: '全字庫正楷體 Ext-B';
+  font-family: 'TW Kai Ext-B';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/TW-Kai-Ext-B-98_1.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: '全字庫正楷體 Plus';
+  font-family: 'TW Kai Plus';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/TW-Kai-Plus-98_1.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: '全字庫正宋體';
+  font-family: 'TW Sung';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/TW-Sung-98_1.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: '全字庫正宋體 Ext-B';
+  font-family: 'TW Sung Ext-B';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/TW-Sung-Ext-B-98_1.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: '全字庫正宋體 Plus';
+  font-family: 'TW Sung Plus';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/TW-Sung-Plus-98_1.ttf') format('truetype');
 }
 
