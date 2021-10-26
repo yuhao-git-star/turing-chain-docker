@@ -229,6 +229,21 @@
 }
 
 @font-face {
+  font-family: 'Montserrat Bold';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'PoiretOne Regular';
   src: url('https://gitcdn.link/repo/yasuoyuhao/turing-chain-docker/master/fonts-master/PoiretOne-Regular.ttf') format('truetype');
 }
